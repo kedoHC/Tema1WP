@@ -1,0 +1,4 @@
+wp-content/themes/Tema1WP/node_modules/
+*.DS_Store
+*.htaccess
+wp-config.php
