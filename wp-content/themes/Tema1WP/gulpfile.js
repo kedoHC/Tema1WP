@@ -118,7 +118,7 @@ gulp.task('serve', ['browserify-serve', 'styles-serve', 'scripts'], function () 
     // });
 
     gulp.watch(['*.html'], reload);
-    gulp.watch(['source/*.css', 'source/css/*.css','source/css/**/*.css'], ['styles-serve']);
+    gulp.watch(['source/*.css', 'source/css/*.css', 'source/css/vendor/*.css', 'source/css/**/*.css'], ['styles-serve']);
     gulp.watch(['source/js/*.js', 'source/js/**/*.js', '!source/js/vendors/*.js'], ['browserify-serve', 'jshint']);
     gulp.watch(['sorce/js/vendor/*.js'], ['scripts']);
     gulp.watch(['images/**/*']);
