@@ -1,8 +1,18 @@
 *{
     box-sizing: border-box;
+	font-family: 'Conv_RobotoMono-Regular';
+
 }
 html{
 	min-height: 100vh;
 	padding-bottom: 62px;
 	position: relative;
+}
+a{
+	text-decoration: none;
+}
+.main__container{
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1200px;
 }

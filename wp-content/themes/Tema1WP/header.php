@@ -29,3 +29,4 @@
 		<h2><?php bloginfo('description') ?></h2>
         <?php include TEMPLATEPATH . "/templates/nav.php" ?>
 	</header>
+    <div class="main__container">
