@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>TemaWP1</title>
+	<title><?php bloginfo('name') ?></title>
 	
 	<!-- OG tags -->
     <meta property="og:image" content="http://vitalinea.com.mx/images/share.png"/>
@@ -27,4 +27,5 @@
 
 		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name') ?></a></h1>
 		<h2><?php bloginfo('description') ?></h2>
+        <?php include TEMPLATEPATH . "/templates/nav.php" ?>
 	</header>

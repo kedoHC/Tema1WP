@@ -1,25 +1,15 @@
-.header{
+.footer{
+	width: 100%;
+	text-align: right;
+	background-color: #000;
+	padding-bottom: 5px;
+	position: absolute;
+	bottom: 0px;
 	
-	background-color: darkgray;
-	
-	& h1{
-		font-family: 'Conv_RobotoMono-Regular';
-		margin: 0px;
-
-		& a{
-			color: #000;
-			text-decoration: none;
-			font-size: 55px;
-		}
-	}
-	& h2{
-		margin-top: 0px;
-		font-family: 'Conv_RobotoMono-Regular';
-	}
-	& .header__nav{
+	& .footer__nav{
 		background-color: #000;
 
-		& .header__nav__list{
+		& .footer__nav__list{
 
 			padding-left: 0px;
 			width: 80%;
@@ -32,7 +22,7 @@
 				display: table-cell;
 				vertical-align: center;
 				text-align: center;
-				padding: 20px;
+				padding: 10px;
 
 				& a{
 					color: #fff;
@@ -42,6 +32,11 @@
 				}
 			}
 		}
+	}
+	& p{
+		margin: 0px;
+		color: #fff;
+		font-family: 'Conv_RobotoMono-Regular';
 
 	}
 }

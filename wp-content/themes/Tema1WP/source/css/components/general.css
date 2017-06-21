@@ -1,3 +1,8 @@
 *{
     box-sizing: border-box;
 }
+html{
+	min-height: 100vh;
+	padding-bottom: 62px;
+	position: relative;
+}
