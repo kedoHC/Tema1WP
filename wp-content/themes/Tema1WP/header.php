@@ -27,6 +27,10 @@
 
 		<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name') ?></a></h1>
 		<h2><?php bloginfo('description') ?></h2>
+
+        <?php dynamic_sidebar('sidebar__footer') ?>
+
+
         <?php include TEMPLATEPATH . "/templates/nav.php" ?>
 	</header>
     <div class="main__container">
